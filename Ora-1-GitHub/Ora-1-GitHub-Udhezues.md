@@ -1,5 +1,4 @@
-# Si Punojmë me GitHub — Udhëzues për Studentë
-### 332 - JavaScript
+# Si Punojmë me GitHub — Udhëzues
 
 ---
 
