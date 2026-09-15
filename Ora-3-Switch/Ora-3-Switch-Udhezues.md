@@ -1,7 +1,7 @@
 
 ---
 
-## 5. Switch Statement
+## Switch Statement
 
 `switch` bën të njëjtën punë si if/else, por është më i pastër kur kontrollojmë një variabël kundrejt shumë vlerave të sakta.
 
