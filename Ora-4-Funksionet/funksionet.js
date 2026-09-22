@@ -77,3 +77,31 @@ function prodhimi(a, b, c){
     console.log(rezultati);
 }
 
+
+
+// function dyfishoje(a){
+//     let rezultati = a * 2;
+//     return rezultati;
+// }
+
+
+
+const dyfishoje = a => a *2;
+
+
+const pershendetPerdoruesin = (emri) =>{
+    const mesazhi = "Pershendetje, " + emri + "!";
+    console.log(mesazhi)
+    return mesazhi;
+ } 
+
+pershendetPerdoruesin("Rreze");
+
+const llogaritCmimin = (cmimiBaze, sasia) => {
+    const totali = cmimiBaze * sasia;
+    return totali;
+}
+
+console.log(llogaritCmimin(2, 10));
+
+
