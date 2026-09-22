@@ -1,4 +1,4 @@
-# Aktiviteti 6&7 — Funksionet (Vazhdim)
+# Aktiviteti 5&6 — Funksionet (Vazhdim)
 ## Udhëzues
 
 ---
