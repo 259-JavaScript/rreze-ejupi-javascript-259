@@ -182,7 +182,13 @@ if (temperatura > 20) {
 console.log(temperatura > 20 ? "Ngrohtë" : "Ftohtë");
 ```
 
-## 🏆 Sfida Bonus (pikë ekstra)
+## 🎯 Sfidat e tua
+
+### Sfidë e lehtë
+
+Deklaroni një variabël `mosha` (numër) dhe një tjetër `qytetiLindjes` (string), me vlera sipas dëshirës. Duke përdorur operatorin ternar, printoni `"I rritur"` ose `"I mitur"` bazuar në `mosha`. Pastaj, duke përdorur `typeof`, printoni tipin e secilës prej dy variablave.
+
+### Sfidë më e vështirë
 
 **"Kalkulatori i Notës & Zbritjes"**
 

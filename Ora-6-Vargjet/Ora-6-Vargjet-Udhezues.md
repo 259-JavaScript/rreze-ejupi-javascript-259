@@ -99,10 +99,6 @@ let mosha2 = llogaritMoshen(vitetLindjes[1]);
 console.log(mosha1, mosha2);
 ```
 
-### Detyrë
-
-Krijoni një array të quajtur `notat` me disa nota (numra). Shkruani një funksion `notaMeELarte` që merr array-n si parametër dhe printon në console notën më të lartë, duke krahasuar elementet me `if`.
-
 ## Përmbledhje e shpejtë
 
 ```javascript
@@ -114,16 +110,12 @@ arr.push(x);  arr.pop();    // fund
 arr.unshift(x); arr.shift(); // fillim
 ```
 
-## Fjalë të shkurtra
+## 🎯 Sfidat e tua
 
-- **Array** — variabël që mban shumë elemente njëherësh, brenda `[ ]`.
-- **Index** — pozita e një elementi brenda array-it; fillon nga 0.
-- **push()** — shton një element në fund të array-it.
-- **pop()** — heq elementin e fundit të array-it.
-- **shift()** — heq elementin e parë të array-it.
-- **unshift()** — shton një element në fillim të array-it.
-- **length** — numri total i elementeve në array.
+### Sfidë e lehtë
 
-## 🎯 Sfida jote (pikë ekstra)
+Krijoni një array të quajtur `notat` me disa nota (numra). Shkruani një funksion `notaMeELarte` që merr array-n si parametër dhe printon në console notën më të lartë, duke krahasuar elementet me `if`.
+
+### Sfidë më e vështirë
 
 Krijoni një array `numrat` me disa numra sipas dëshirës. Pa përdorur `Math.max()` apo `Math.min()`, shkruani kod që gjen dhe printon në console numrin **më të madh** dhe numrin **më të vogël** në array, duke ecur nëpër elementet e tij dhe duke i krahasuar me `if`.

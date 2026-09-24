@@ -100,10 +100,12 @@ Kjo siguron që askush tjetër nuk mund të përdorë llogarinë tënde në kët
 
 ---
 
-## Fjalë të shkurtra
+## 🎯 Sfidat e tua
 
-- **Repository (repo)** — folderi ku ruhet projekti yt në GitHub
-- **Commit** — një "ruajtje" e ndryshimeve, me një mesazh që shpjegon çka ndryshove
-- **Push** — dërgimi i commiteve nga kompjuteri yt në GitHub
-- **Clone** — shkarkimi i një repository-t nga GitHub në kompjuterin tënd
-- **Organizatë** — grupi në GitHub ku janë të gjitha repot e klasës sonë
+### Sfidë e lehtë
+
+Hap folderin tënd në VS Code, identifikohu me `gh auth login`, bëj një ndryshim të vogël në një file (p.sh. shto një `console.log` të ri), bëj **commit** me një mesazh të qartë, dhe **push**-oje në GitHub. Në fund, kontrollo në browser (faqja e repository-t) që ndryshimi u shfaq atje.
+
+### Sfidë më e vështirë
+
+Bëj **tre commits** të veçanta gjatë kësaj klase — jo një commit të madh me gjithçka brenda. Secili commit duhet të përfshijë vetëm një ndryshim logjik (p.sh. commiti i parë për një funksion të ri, i dyti për një korrigjim gabimi, i treti për një koment shpjegues). Push-oji të tria commitet në fund, dhe hap historikun e tyre (te GitHub online, faqja e repository-t → **Commits**) për të parë renditjen dhe mesazhet e tyre.

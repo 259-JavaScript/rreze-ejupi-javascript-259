@@ -58,3 +58,13 @@ switch (nota) {
     console.log("Duhet përmirësim");
 }
 ```
+
+## 🎯 Sfidat e tua
+
+### Sfidë e lehtë
+
+Deklaroni një variabël `stina` (string, p.sh. `"verë"`). Duke përdorur `switch`, printoni një mesazh të ndryshëm për `"verë"`, `"dimër"`, `"vjeshtë"`, `"pranverë"`, dhe një mesazh `default` për çdo vlerë tjetër.
+
+### Sfidë më e vështirë
+
+Deklaroni një variabël `muaji` (numër nga 1 deri 12). Duke përdorur `switch`, gruponi muajt sipas stinës (siç u tregua me `"e Shtunë"`/`"e Diel"` te shembulli i ditëve) dhe printoni stinën përkatëse: `12, 1, 2` → `"Dimër"`; `3, 4, 5` → `"Pranverë"`; `6, 7, 8` → `"Verë"`; `9, 10, 11` → `"Vjeshtë"`. Shtoni edhe një `default` për vlera jashtë intervalit 1–12.

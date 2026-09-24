@@ -105,7 +105,9 @@ Kemi krijuar variablën `user` jashtë funksionit; brenda funksionit i jemi qasu
 
 ---
 
-## Detyrë Shtëpie
+## 🎯 Sfidat e tua
+
+### Sfidë e lehtë
 
 Shkruani një funksion të quajtur `printoNumrinTimFavorit` që:
 1. Deklaron një variabël lokale me numrin tuaj të preferuar.
@@ -118,3 +120,7 @@ function printoNumrinTimFavorit() {
   // kodi juaj këtu
 }
 ```
+
+### Sfidë më e vështirë
+
+Deklaroni një variabël globale `numriIVogelit` me vlerë `10`. Shkruani dy funksione: `dyfishoje`, që printon dyfishin e `numriIVogelit`-it, dhe `ndryshoje`, që i jep `numriIVogelit`-it një vlerë tjetër (brenda funksionit, pa e ridekaluar si variabël lokale). Thirreni `dyfishoje()`, pastaj `ndryshoje()`, pastaj `dyfishoje()` përsëri — çfarë printohet të dy herët, dhe pse ndryshon rezultati i dytë?

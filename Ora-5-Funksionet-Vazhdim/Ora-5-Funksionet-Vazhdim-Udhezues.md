@@ -80,10 +80,6 @@ console.log(llogaritCmimin(2.5, 4)); // 10
 
 > 💡 Rregull i thjeshtë për t'u mbajtur mend: **1 parametër + 1 rresht** → mund t'i heqësh të gjitha kllapat e tepërta. Sapo shton qoftë edhe një rresht më shumë, qoftë edhe një parametër më shumë — kthehen kllapat.
 
-### Detyrë
-
-Rishkruani funksionin `mblidhDyNumra` nga seksioni 2 si Arrow Function, në format një-rresht (Tipi 1 — por kujdes, ky rast ka 2 parametra, jo 1 — çfarë ndryshon në sintaksë krahasuar me Tipin 1 të mësipërm?).
-
 ## Përmbledhje e shpejtë
 
 ```javascript
@@ -94,14 +90,12 @@ const emri = (param) => { return vlera; };     // Arrow — shumë rreshta, 1 pa
 const emri = (p1, p2) => { return vlera; };     // Arrow — shumë rreshta, 2+ param
 ```
 
-## Fjalë të shkurtra
+## 🎯 Sfidat e tua
 
-- **Parametër** — vend-mbajtësi brenda kllapave `()` të një funksioni; përcakton çfarë të dhënash pranon funksioni.
-- **Argument** — vlera konkrete që i japim funksionit kur e thërrasim.
-- **return** — fjalëkyçi që i kthen një vlerë funksionit dhe ndalon ekzekutimin e tij.
-- **Arrow Function** — mënyrë alternative, më e shkurtër, për të shkruar funksione, me sintaksën `=>`.
-- **Implicit return** — kur Arrow Function-i ka vetëm 1 rresht dhe kthen vlerën automatikisht, pa fjalën `return`.
+### Sfidë e lehtë
 
-## 🎯 Sfida jote (pikë ekstra)
+Rishkruani funksionin `mblidhDyNumra` nga seksioni 2 si Arrow Function, në format një-rresht (Tipi 1 — por kujdes, ky rast ka 2 parametra, jo 1 — çfarë ndryshon në sintaksë krahasuar me Tipin 1 të mësipërm?).
+
+### Sfidë më e vështirë
 
 Shkruani një Arrow Function `eshteMoshRritur` me një parametër (`mosha`), që kthen `true` nëse mosha është 18 ose më shumë, përndryshe `false`. Shkruajeni fillimisht si Tipi 2 (me `{ }` dhe `return` eksplicit), pastaj provoni ta shkurtoni edhe në Tipin 1 duke përdorur operatorin ternar brenda return-it të nënkuptuar (p.sh. `const emri = param => kushti ? "a" : "b";`).
