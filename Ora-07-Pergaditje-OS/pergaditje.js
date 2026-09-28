@@ -4,7 +4,6 @@
 //  përndryshe "Jashtë buxhetit".
 
 
-
 let buxheti = 500;
 
 if(buxheti>100){
@@ -12,17 +11,6 @@ if(buxheti>100){
 }else{
     console.log("Jashte buxhetit")
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Detyra 2:
@@ -35,8 +23,6 @@ let nota = 5;
 let rezultati = nota>=5 ? "Kaluar" : "Nuk ka kaluar";
 
 console.log(rezultati)
-
-
 
 
 // Detyra 3:
@@ -62,9 +48,6 @@ switch(dita){
     default:
         console.log("Nuk eshte e hene ose e premte")
 }
-
-
-
 
 
 // Detyra 4:
